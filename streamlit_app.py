@@ -26,7 +26,7 @@ def mostrar_resultado(nombre, resultado):
 
 def main():
     st.set_page_config(page_title="Buscador de estados", layout="centered")
-    st.title("Buscador de estados con Streamlit")
+    st.title("Buscador de estados")
     st.write(
         "Ingresa un estado inicial y un estado objetivo para comparar los algoritmos DFS, DFS recursivo y BFS."
     )
@@ -61,3 +61,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
